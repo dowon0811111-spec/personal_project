@@ -1,0 +1,27 @@
+# 비밀 값
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# 캐시
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 로컬 DB
+*.db
+*.sqlite
+*.sqlite3
+
+# 에디터/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
